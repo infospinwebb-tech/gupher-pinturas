@@ -1,0 +1,18 @@
+# Centro de Pinturas Gupher - robots.txt
+# Permitir indexación de todo el sitio
+
+User-agent: *
+Allow: /
+Disallow: /.vercel/
+Disallow: /node_modules/
+Disallow: /*.json$
+
+# Google-specific directives
+User-agent: Googlebot
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.pinturas-gupher.com/sitemap.xml
+
+# Crawl delay (opcional, permite que Google no sobrecargue el servidor)
+Crawl-delay: 1
